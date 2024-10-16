@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "JetBrains Mono", monospace;
+}
+
+body {
+    background-color: #EDBC40;
+    color: #414141;
+    padding-top: 100px;
+    justify-content: center;
+}
+
+header  {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    border: 2px solid #414141;
+    padding: 0 auto;
+    border-radius: 10px;
+    width: 650px;
+}
+
+header img {
+    height: 150px;
+    margin-right: 0;
+}
+
+header{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    place-items: grid;
+    place-items: center
+}
+
+.container form p {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+form{
+    margin-bottom: 56px;
+}
+
+form input {
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 8px;
+    width: 650px;
+    margin-bottom: 30px;
+}
+
+form button {
+    background-color: #414141;
+    color: #EDBC40 ;
+    font-size: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px 250px;
+}
+
+table {
+    padding: 8px;
+    width:650px;
+    table-layout: fixed;
+}
+
+
+thead th {
+    background-color: #414141;
+    color: #EDBC40;
+    padding: 5px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-width: 800px;
+    font-weight: lighter;
+    text-align: center;
+
+}
+
+tbody td {
+    padding: 5px;
+    text-align: center;
+    border-bottom: 1px solid #414141;
+}

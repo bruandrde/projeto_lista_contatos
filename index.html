@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Contatos</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <header>
+        <img src="./celular.png" alt="icone celular"/>
+        <h1>LISTA DE CONTATOS</h1>
+    </header>
+    <form id="form-contato">
+        <p>NOME:</p>
+        <input type="text" id="seu-nome" required>
+        <p>TELEFONE:</p>
+        <input type="tel" id="seu-telefone" required>
+        <p>E-MAIL:</p>
+        <input type="email" id="seu-email" required> <br/>
+        <button type="submit">CADASTRAR</button>
+    </form>
+    <table cellspacing="0">
+        <thead>
+            <tr>
+                <th>NOME:</th>
+                <th>TELEFONE:</th>
+                <th>E-MAIL:</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>---</td>
+                <td>---</td>
+                <td>---</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<script src="./main.js"></script>
+</body>
+</html>
